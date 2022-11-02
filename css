@@ -1,0 +1,191 @@
+ * {
+      margin: 0;
+      padding: 0;
+      outline: 0;
+    }
+/*------- Using Text Inside the page ------*/
+    body {
+      font-family: "Allerta", serif;
+      height: 100%;
+    }
+
+/*-------NAVBAR PORTION------ */
+    #navbarMonstera {
+      display: flex;
+      flex-direction: row;
+      cursor: pointer;
+    }
+
+    #navFirst {
+      margin: 40px;
+    }
+
+    #navMid {
+      display: inline-flex;
+      flex-direction: row;
+      font-size: 20px;
+    }
+
+    div:nth-child(1) {
+      margin-top: 3px;
+      margin-left: 140px;
+      text-decoration: underline;
+    }
+
+    #navMid h4 {
+      margin-top: 40px;
+      width: 200px;
+    }
+
+    #navEnd {
+      display: inline-flex;
+      flex-direction: row;
+      text-decoration: 20px;
+    }
+
+    #navEnd div {
+      margin-top: 40px;
+      margin-left: 80px;
+      width: 5px;
+    }
+
+/* -----------MIDDLE PART OF THE PAGE---------- */
+    #midWhole #imgMain {
+      position: absolute;
+      top: 75vh;
+      margin-left: 68.5%;
+      margin-top: -28.5%;
+      block-size: 700px;
+
+    }
+
+    #midWholePart11 div ul {
+      position: absolute;
+      top: 25vh;
+      left: 30px;
+      font-size: 20px;
+
+
+    }
+
+    #midWholePart11 div ul li #monstera {
+      font-size: 120px;
+      letter-spacing: 1vw;
+    }
+
+    #midWholePart12 {
+      display: flex;
+      flex-direction: row;
+      text-decoration: none;
+    }
+
+    #midWholePart121 div h1 {
+      text-decoration: none;
+    }
+
+    #midWholePart121 div h1 {
+      position: absolute;
+      top: 60vh;
+      left: 5vw;
+      background-color: rgb(70, 109, 80);
+      color: #fff;
+      width: 200px;
+      padding: 12px 15px 12px 30px;
+      border-radius: 30px;
+      font-family: "Allerta", serif;
+      cursor: pointer;
+    }
+
+    #midWholePart121 div h1::after {
+      content: '\00bb';
+      margin-left: 10px;
+    }
+/* --------FOOTER PART--------- */
+    .midWholePart13Parts,
+    #midWholePart13 {
+      display: flex;
+      flex-direction: row;
+      text-align: inline;
+      width: 600px;
+      cursor: pointer;
+    }
+
+    #midWholePart13 {
+      margin-top: 550px;
+      margin-left: -360px;
+
+    }
+
+    #feeding {
+      margin-right: 15px;
+      width: 80px;
+    }
+
+    #light, #care {
+      width: 50px;
+      margin-right: 15px;
+    }
+
+    .text {
+      font-weight: 200;
+      font-family: "Abel";
+      width: 200px;
+      
+    }
+
+    .midWholePart13Parts div h4 {
+      font-family: "Allerta";
+    }
+    /* --------Extras------- */
+    .midWholePart13Parts:hover {
+      cursor: pointer;
+      box-shadow: 0px 1px 50px rgba(0, 0, 0, 0.4);
+      background: rgb(61, 146, 82);
+      padding: 10px 20px;
+      border-radius: 20px;
+      transition: all 1s ease;
+    }
+
+    /* -------MEDIA CONTENT--------- */
+
+    @media screen and (min-width: 1200px) {
+    .left-section{
+     width: 100%;
+    }
+ }
+ /* -----media-2 for small devices---- */
+ @media screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+      }
+      div:nth-child(1) {
+      margin-left: -10px;
+      font-weight: bold;
+    }
+    
+    #navMid {
+      display: flex;
+      flex-direction: column;
+      margin-top: 40px;
+      font-size: 15px;
+    }
+    
+    #navMid h4 {
+      margin-top: 5px;
+      width: 80px;
+    }
+    #navEnd div {
+      margin-left: 60px;
+    }
+    #midWholePart11 div ul li #monstera {
+      font-size: 100px;
+      letter-spacing: 1vw;
+    }
+    #midWholePart121 div h1 {
+      margin-top: 60px;
+    }
+    .midWholePart13Parts,
+    #midWholePart13 {
+      display: none;
+
+    }
